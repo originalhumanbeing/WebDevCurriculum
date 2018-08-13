@@ -6,14 +6,15 @@
 
 ## Topics
 * git
-  * `git clone`
-  * `git add`
-  * `git commit`
-  * `git push`
-  * `git pull`
-  * `git branch`
-  * `git stash`
+  * `git clone`: remote repo를 local에 복사함
+  * `git add`: 작업한 내용을 working area에서 git이 모니터링하고 있는 staging area로 이동함 
+  * `git commit`: 작업한 내용을 staging area에서 .git directory로 이동함 
+  * `git push`: remote repo에 작업 내용을 업로딩함
+  * `git pull`: remote repo의 변경 내용을 local로 가져옴
+  * `git branch`: master branch 외에도 feature에 따라 branch를 만들어서 master branch를 production branch로 사용할 수 있음. branch를 확인하고 만드는 명령어
+  * `git stash`: local에서 작업한 내용을 모두 저장하고 head commit으로 돌아감
 * GitHub
+  * git을 보다 편리하게 활용할 수 있도록 하는 플랫폼으로 commit history 파악, pull request, fork 등을 커맨드 라인 외에서 할 수 있음
 
 ## Resources
 * [git, 분산 버전 관리 시스템](http://www.yes24.com/24/goods/3676100?scode=032&OzSrank=1), 인사이트
@@ -23,7 +24,17 @@
 
 ## Checklist
 * 버전 관리 시스템은 왜 필요한가요?
+  * 팀 혹은 개인이 작업을 하면서 모든 작업 내역을 남길 수 있어서 언제든 commit한 history로 돌아갈 수 있다
+  * history를 review할 때 확인할 수 있는 사항은 아래와 같다
+    * 무엇이 변경됐는지 
+    * 누가 변경했는지
+    * 언제 변경됐는지
+    * 왜 변경해야 했는지
+  * 위와 같은 이유로 commit history를 보고 프로젝트 및 다른 멤버가 하고 있는 작업에 대해 이해가 용이하고, branch를 활용하면 작업 내용이 섞이지 않아서 협업에 좋다
+
 * git 외의 버전관리 시스템에는 무엇이 있나요? git은 그 시스템과 어떤 점이 다르며, 어떤 장점을 가지고 있나요?
+
+
 * git의 `clone`/`add`/`commit`/`push`/`pull`/`branch`/`stash` 명령은 무엇이며 어떨 때 이용하나요? 그리고 어떻게 사용하나요?
 
 ## Quest
